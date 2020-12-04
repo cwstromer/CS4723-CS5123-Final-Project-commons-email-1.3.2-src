@@ -18,7 +18,7 @@ pipeline {
         stage('Deliver') {
             steps {
                 //echo 'pmp___: ready for deployment'
-                sh './jenkins/scripts/deliver.sh'
+                bat './jenkins/scripts/deliver.bat'
             }
         }
     }
