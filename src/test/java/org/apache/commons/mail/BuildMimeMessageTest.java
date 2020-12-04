@@ -3,7 +3,7 @@ import junit.framework.TestCase;
 
 import javax.mail.internet.MimeMultipart;
 
-public class testBuildMimeMessage extends TestCase {
+public class BuildMimeMessageTest extends TestCase {
     Email testEmail;
     public void setUp() {
         testEmail = new SimpleEmail();

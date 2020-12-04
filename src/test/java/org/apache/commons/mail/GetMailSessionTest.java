@@ -2,7 +2,7 @@ package org.apache.commons.mail;
 
 import junit.framework.TestCase;
 
-public class testGetMailSession extends TestCase {
+public class GetMailSessionTest extends TestCase {
     Email testEmail;
     public void setUp() {
         testEmail = new SimpleEmail();
